@@ -29,7 +29,7 @@ public:
     typedef value_type  vec_type;
 
     static const bool       generic_type = false;
-    static const ElemType   depth        = CV_64F;
+    static const ElemDepth  depth        = CV_64F;
     static const int        channels     = 1;
     static const int        fmt          = (int)'v';
     static const ElemType   type         = CV_MAKETYPE(depth, channels);
